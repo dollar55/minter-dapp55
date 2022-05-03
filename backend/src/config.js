@@ -7,22 +7,24 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "Fuzzy Frens NFT";
+const description = "5555 hand drawn Fuzzy Frens on the Ethereum blockchain";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 5541,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Clothing" },
+      { name: "Face" },
+      { name: "Hat" },
+    ],
+  },{
+    growEditionSizeTo: 5555,
+    layersOrder: [
+      { name: "one of one" },
     ],
   },
 ];
@@ -32,13 +34,13 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2400,
+  height: 2400,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://FuzzyFrensNFT.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
