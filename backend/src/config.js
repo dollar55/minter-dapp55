@@ -40,7 +40,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://FuzzyFrensNFT.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://FuzzyFrens.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
